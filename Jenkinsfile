@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh '''ls date   pwd cat
-
-'''
+        sh 'ls'
       }
     }
 
